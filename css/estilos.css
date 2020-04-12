@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    width: 90%;
+    min-height: 90vh;
+    background-color: lavender;
+}
+
+header{
+    height: 80px;
+    background-color: #8316B2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 34px;
+    text-shadow: 5px 5px 5px #000000;
+    
+}
+
+#contenido{
+    min-height: 50vh;
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenido section{
+    width: 100%;
+    height: 500px;
+}
+
+#acceso{
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #14BEC1;
+    flex-direction: column;
+}
+
+#acceso h2, #acceso form{
+    background-color: #3EC114;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    width: 50%;
+}
+
+#acceso form{
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    font-weight: bold;
+}
+#btn-ingresar{
+    background-color: blueviolet;
+    color: cornsilk;
+    border: none;
+    width: 60px;
+    height: 25px;
+}
+ul{
+    text-decoration: none;
+    
+
+}
+
+#usuario{
+    width: 170px;
+    height: 25px;   
+}
+
+#bienvenida{
+    display: inline;
+    position: relative;
+    text-align: center;
+    margin-left: 500px;
+    align-items: center;
+    padding-top: 10px;
+}
+ #atras{
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+}
+#adelante{
+    display: inline-block;
+    position: relative;
+    left: 1150px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+#tablero{
+    display: flex;
+}
+
+#tablero>div{
+    border: solid 1px #000000;
+}
+
+#preguntas{
+    width: 65%;
+}
+
+#panel{
+    width: 35%;
+    display: flex;
+    justify-items: center;
+}
+
+#botones{
+    width: 80%;
+    border: 1px solid #000000;
+    padding-left: 30px;
+}
+
+#botones>p{
+    margin-top: 30px;
+}
+span[id^="b-"]{
+    background-color: #dddddd;
+    padding: 10px;    
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.caja{
+    background:#3EC114;
+    display: flex;
+    border: 1px;
+    height: 50px;
+}
+
+
